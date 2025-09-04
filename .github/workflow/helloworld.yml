@@ -8,8 +8,8 @@ on:
    - production
 
 jobs:
-  hello_word:
-    runs-on:
+  hello_world:
+    runs-on: ubuntu-letest
     steps:
-      - name:"Print hello world"
+      - name: "Print hello world"
         run: echo "hello_world"
